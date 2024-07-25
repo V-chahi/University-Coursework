@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
-#include <cstdlib> // For rand() and srand()
-#include <ctime>   // For time()
+#include <cstdlib> 
+#include <ctime>   
 
 void generateCaseA(int length) {
     ofstream outFile("case_a.txt");
