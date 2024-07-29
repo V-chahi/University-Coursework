@@ -1,9 +1,9 @@
--
+{-
 CH-232-A
 a3_p4.[hs]
 Amine Chahi
 m.chahi@jacobs-university.de
--
+-}
 
 --B-) A possible solution not requiring language features is as follows:
 
