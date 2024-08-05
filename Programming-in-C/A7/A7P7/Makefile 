@@ -1,0 +1,13 @@
+
+
+start: teststack.o Stack.o 
+	gcc -Wall -Wextra -O2 -o hello Stack.o teststack.o
+
+Stack.o: Stack.h Stack.c
+
+testctack.o: Stack.h teststack.c
+
+delete:
+	rm -f start *.o *.exe
+		
+		
